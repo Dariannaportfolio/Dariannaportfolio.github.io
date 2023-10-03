@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body {
+    background-color: #D6B2FF;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border: thick dotted #5780F1;
+}
+h1 {
+    color: purple;
+    background: white;
+}
