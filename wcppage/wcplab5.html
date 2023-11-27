@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>wcplab5</title>
+<style type="text/css">
+body {
+    background-color: pink;
+}
+h1 {
+    background-color: white;
+}
+	
+</style>
+</head>
+
+<body>
+	
+<a href="../index.html">Go Back to Homepage</a>  
+	<h1>Sign up Form for a K-pop Dance group </h1>
+<p>This form wil be used to sign up for  a  k-pop dance team that covers  differnt group </p>
+<form action="https://handlers.education.launchcode.org/request-parrot">
+	<img src="kpop.png" width="300" height="300" alt=""/>
+  <p>
+    <label for="fname">First name:</label>
+    <input name="fname" type="text" required="required" id="fname">
+    <br>
+    <label for="Lname">Last name:</label>
+	  <input name ="Lname" type="text"required="required" id="Lname">
+
+  
+	  <br>
+  <label for="Username"> Username </label> 
+  <input name="Username" type="text"required="required" id="Username" pattern="[A-Za-z]{6,10}"> 
+	  <br>
+	  <label for="Password">Password </label>
+  <input  name="Password" type="password" required="required" id="Password" pattern="[0-9A-Za-z]{6,10}"> 
+  <br>
+	  <label for="Date Of Birth">Date Of Birth </label>
+	  <input  name="Date Of Birth" type="date" required="required" id="Date Of Birth "> 
+	  <br>
+	  <label for="Phone #"> Phone #</label>
+    <input name="Phone #" type="tel"required="required" id="Phone # " pattern="[0-9]{10}">
+	  <br>
+	  <label for="Email">Email</label>
+	  <input name="Email" type="email" id="Email">
+	  <br>
+	  <label for="Personal Website">Personal website </label>
+	  <input name="Personal website"  type="url" id="Personal website">
+	  <br>
+  <P> Interest:</P>
+	  <input type="checkbox" id="Interest" name="Interest" value="BTS">
+  <label for="Interest"> BTS</label>
+	  <br>
+	  <input type="checkbox" id="Interest2" name="Interest2" value="Straykids">
+  <label for="Interest2"> Straykids</label>
+  <br>
+	  <input type="checkbox" id="Interest3" name="Interest3" value="Twice">
+  <label for="Interest3"> Twice</label>
+  <br>
+	  <input type="checkbox" id="Interest4" name="Interest4" value="Newjeans">
+  <label for="Interest4"> Newjeans</label>
+  <br>
+	  <br>
+	  <p>Where did you hear about this site?</p>
+	  <input type="radio">
+		<label>Through Social Media</label>
+		<br>
+		<input type="radio">
+		<label>A friend/Family member</label>
+		<br>
+		<input type="radio">
+		<label>Promotions(Poster)</label>
+		<br>
+		<input type="radio">
+		<label>Other</label>
+		<br>
+	  
+      <button>Submit</button>
+    <input type="reset" name="reset" id="reset" value="Reset">
+</form>
+</body>
+</html>
